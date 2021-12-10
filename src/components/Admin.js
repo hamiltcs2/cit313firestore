@@ -31,7 +31,7 @@ function Admin(){
     const addProduct = () =>{
         if(obj.name !== "" && obj.price !== "" && obj.stock !== "" && obj.image !== "") {
             if (status !== "valid") {
-                obj.image = "https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
+                //obj.image = "https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
             }
             dispatch(add_product(obj))
         }

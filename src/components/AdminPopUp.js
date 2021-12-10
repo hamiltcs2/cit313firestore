@@ -27,7 +27,7 @@ function AdminPopUp(props) {
         if(obj.name !== "" && obj.price !== "" && obj.stock !== "" && obj.image !== "") {
             if (status !== "valid") {
                 console.log("hello");
-                obj.image = "https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
+                //obj.image = "https://image.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
             }
             console.log(obj);
             dispatch(edit_item(obj))
